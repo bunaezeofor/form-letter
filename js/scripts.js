@@ -1,7 +1,9 @@
 $(document).ready(function(){
-  $('#blanks form').submit(funtion() {
-      $('.person1').text('');
-  })
+  $('#blanks form').submit(funtion(event) {
+      $('.person1').append('hello');
 
-  //event.preventDefault();
+      $('#story').show();
+
+      event.preventDefault();
+  });
 });
