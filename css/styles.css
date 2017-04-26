@@ -1,0 +1,12 @@
+p.solid {
+  border-style: solid;
+  border-color: red;
+  border-width: thick;
+}
+
+p {
+  color: red;
+}
+.row{
+   display: none;
+}
