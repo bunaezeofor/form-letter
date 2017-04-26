@@ -1,31 +1,43 @@
 <!DOCTYPE html>
 <html>
   <head>
-  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-  <link rel="stylesheet" href="css/styles.css" media="screen" title="no title" charset="utf-8">
-  <script src="js/jquery-3.2.1.js"></script>
-  <script src="js/scripts.js"></script>
-  <title>Form Letter</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/styles.css" media="screen" title="no title" charset="utf-8">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Form Letter</title>
   </head>
   <body>
-    <div class="container">
-      <div id='blanks'>
-      <form>
+    <h1>Fill in the blank for your Postcard</h1>
+    <div>
+      <form id="formOne">
         <div class="form-group">
-          <label for='person1'>Enter Name for a personal leter.</label>
-          <input type="text" class="form-control" id="person1" placeholder="Jane Doe">
+          <label for="person1">Enter your name below.
+          </label>
+          <input id="person1" class="form-control" type="text">
+          <label for="person2">Enter your address below.</label>
+          <input id="person2" class="form-control" type="text">
+          <button type="submit" class="btn">Enter</button>
         </div>
-        <button type="submit" class="btn btn-default">Submit</button>
       </form>
     </div>
-    <div id='story'>
-      <div class="row">
-        <div class="col-lg-6";>
-          <img src="img/miami.jpg" alt="Miami Beach"/>
-            <p></p>
-        </div>
-        <div class="col-lg-6">
-          <p><span class="person1"></span>Show belly ears back wide eyed for lick the plastic bag. White cat sleeps on a black shirt asdflkjaertvlkjasntvkjn (sits on keyboard) pee in human's bed until he cleans the litter box yet get video posted to internet for chasing red dot for kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff. Sweet beast where is my slave? </p>
+    <div class='well'>
+      <div class="container class">
+        <div class='row'>
+          <div id='story'>
+            <div class='col-lg-6'>
+             <p>
+             One day,  Human give me attention meow shove bum in owner's face like camera lens lick sellotape shove bum in owner's face like camera lens, with tail in the air. Demand to be let outside at once, and expect owner to wait for me as i think about it knock over christmas tree for caticus cuteicus sit on the laptop lick face hiss at owner, pee a lot, and meow repeatedly scratch at fence purrrrrr eat muffins and poutine until owner comes back for curl into a furry donut howl on top of tall thing. Lick the curtain just to be annoying play riveting piece on synthesizer keyboard so immediately regret falling into bathtub. Going to catch the red dot today going to catch the red dot today
+            </p>
+            </div>
+            <div class='col-lg-6'>
+            <p>
+            <span class="person1"></span>
+            </p>
+            <p>
+            Email address: <span class="person2"></span>
+            </p>
+            </div>
           </div>
         </div>
       </div>
